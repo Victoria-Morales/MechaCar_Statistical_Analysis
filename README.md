@@ -2,6 +2,8 @@
 
 ## Purpose of Project
 
+* The purpose of this project is to perform data analytics on the troubled MechaCar.  The analysis should provide insights into the mpg, provide summary statistics on the suspension coils, run t-tests  on the different manufacturing lots, and design a study to compare the MechaCar to it's competitors.
+
 ## Linear Regression to Predict MPG
 
 ![Del1](/Resources/del_one.png)
@@ -39,3 +41,24 @@
 ![Del3a](/Resources/ttest_one.png)
 ![Del3b](/Resources/ttest_two.png)
 ![Del3c](/Resources/ttest_three.png)
+
+
+## Study Design: MechaCar vs Competition
+* The statistical study will determine if MechaCar’s pricing is in line with their competitors.  To test this, we will determine if certain metrics  correlate to pricing and thus based on MechaCar’s metrics in these areas, the pricing is in line.
+
+* What metric or metrics are you going to test?
+* cost
+* fuel efficiency
+* safety rating
+
+* What is the null hypothesis or alternative hypothesis?
+	* Null Hypothesis – Higher fuel efficiency and safety rating correlate to higher cost.
+	* Alternative Hypothesis – Fuel efficiency and safety rating do not correlate to higher cost.
+* What statistical test would you use to test the hypothesis? And why?
+	* I would perform a multiple linear regression test to determine if safety rating and fuel efficiency have a direct correlation to cost.
+* What data is needed to run the statistical test?
+	* Data from both MechaCar and several of its competitor that includes:
+		* Vehicle Class
+* Vehicle Cost
+		* Safety rating 
+		* mpg
